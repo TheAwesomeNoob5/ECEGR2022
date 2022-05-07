@@ -1,0 +1,360 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+!s11e vcom 2021.2 2021.04, Apr 14 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/Lab_1
+T_opt
+!s110 1651458017
+Ve[P`<<9;gFd6VAeE0jCaj2
+04 11 8 work testreg_vhd behavior 1
+=1-38fc98b0a833-626f3fdf-372-5488
+!s124 OEM10U72 
+o-quiet -auto_acc_if_foreign -work work +acc
+tCvgOpt 0
+n@_opt
+OL;O;2021.2;73
+Eadder_subtracter
+Z1 w1651458002
+Z2 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z3 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z4 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 65
+Z7 dC:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/Lab_3
+Z8 8C:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/Lab_3/registers.vhd
+Z9 FC:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/Lab_3/registers.vhd
+l0
+L136 1
+VGlR1iLY2k;Z=O7YlKBKMH2
+!s100 ^Bkm<]>[YAUc[HH;Gec8D2
+Z10 OL;C;2021.2;73
+32
+Z11 !s110 1651458005
+!i10b 1
+Z12 !s108 1651458004.000000
+Z13 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/Lab_3/registers.vhd|
+Z14 !s107 C:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/Lab_3/registers.vhd|
+!i113 0
+Z15 o-work work -2002 -explicit
+Z16 tExplicit 1 CvgOpt 0
+Acalc
+R2
+R3
+R4
+R5
+R6
+DEx4 work 16 adder_subtracter 0 22 GlR1iLY2k;Z=O7YlKBKMH2
+!i122 65
+l157
+L144 27
+VS>jcm;P:G[:AF8QJf?7hz0
+!s100 OG=4N@2TT80]2PQkXE=_k3
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 0
+R15
+R16
+Ebitstorage
+R1
+R2
+R3
+R4
+R5
+R6
+!i122 65
+R7
+R8
+R9
+l0
+L6 1
+VeSE?czZZ2W`HQAEPk:[ZL3
+!s100 7DkTE8j^^b>d;g?B5KcEW3
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 0
+R15
+R16
+Amemlike
+R2
+R3
+R4
+R5
+R6
+DEx4 work 10 bitstorage 0 22 eSE?czZZ2W`HQAEPk:[ZL3
+!i122 65
+l15
+L13 13
+V2Ec]NUJ>WAIkAZGMRhRjX3
+!s100 ko9m<@9jfD?H<BYBGKS<H0
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 0
+R15
+R16
+Efulladder
+R1
+R2
+R3
+R4
+R5
+R6
+!i122 65
+R7
+R8
+R9
+l0
+L33 1
+V74OlZhZ4Ifbfcg>hF5gOR2
+!s100 cY6;]8j3jQ>>i2b_P>Q491
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 0
+R15
+R16
+Aaddlike
+R2
+R3
+R4
+R5
+R6
+DEx4 work 9 fulladder 0 22 74OlZhZ4Ifbfcg>hF5gOR2
+!i122 65
+l43
+L42 5
+VQW?2OA1jeYhjlHf`?KfXl0
+!s100 f^dEB;NZ><:Ae=OZE>aR`1
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 0
+R15
+R16
+Eregister32
+R1
+R2
+R3
+R4
+R5
+R6
+!i122 65
+R7
+R8
+R9
+l0
+L86 1
+VnUjH_0fEH035f7G>Jk5Rc2
+!s100 Zg>CX;<]K2LU0zI45K^[20
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 0
+R15
+R16
+Abiggermem
+R2
+R3
+R4
+R5
+R6
+DEx4 work 10 register32 0 22 nUjH_0fEH035f7G>Jk5Rc2
+!i122 65
+l108
+L93 36
+VO;^]d>oAbL`l?^[nJ]l630
+!s100 dJmU2o^13L[ecgJ5SUIfc1
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 0
+R15
+R16
+Eregister8
+R1
+R2
+R3
+R4
+R5
+R6
+!i122 65
+R7
+R8
+R9
+l0
+L55 1
+VgbPKYUXjN`LAl@fGHM8LW2
+!s100 3eR>6EnCD0n]8LL32V:4^1
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 0
+R15
+R16
+Amemmy
+R2
+R3
+R4
+R5
+R6
+DEx4 work 9 register8 0 22 gbPKYUXjN`LAl@fGHM8LW2
+!i122 65
+l69
+L62 17
+VGKJl@df5;hD3_2SNB5l581
+!s100 218eBzIe=eagE;<Xk6o2Y3
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 0
+R15
+R16
+Eshift_register
+R1
+R2
+R3
+R4
+R5
+R6
+!i122 65
+R7
+R8
+R9
+l0
+L178 1
+V7_`6M>AQT3MQ9ekl`oeEC3
+!s100 YV0OGoMh`^4^8I]UXP5na1
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 0
+R15
+R16
+Ashifter
+R2
+R3
+R4
+R5
+R6
+DEx4 work 14 shift_register 0 22 7_`6M>AQT3MQ9ekl`oeEC3
+!i122 65
+l187
+L185 12
+VJN<iA4bH5c>z[b;PhDJKe2
+!s100 d9@UHolF1O2fQHB1BEE?A0
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 0
+R15
+R16
+Etestreg_vhd
+Z17 w1650512732
+R4
+R2
+R3
+R5
+R6
+!i122 48
+R7
+Z18 8C:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/Lab_3/tregisterswclues.vhd
+Z19 FC:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/Lab_3/tregisterswclues.vhd
+l0
+L12 1
+ViXoQXl2a;kM[chQ:j@fB?1
+!s100 [FQ?dzLOmOKmXoOC5VXHN0
+R10
+32
+Z20 !s110 1651363191
+!i10b 1
+Z21 !s108 1651363191.000000
+Z22 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/Lab_3/tregisterswclues.vhd|
+Z23 !s107 C:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/Lab_3/tregisterswclues.vhd|
+!i113 0
+R15
+R16
+Abehavior
+R4
+R2
+R3
+R5
+R6
+DEx4 work 11 testreg_vhd 0 22 iXoQXl2a;kM[chQ:j@fB?1
+!i122 48
+l59
+L15 151
+VkbOe39?Vb]5;FNY]5>AO41
+!s100 zdoKYizBG:HDl<[>DIJn_0
+R10
+32
+R20
+!i10b 1
+R21
+R22
+R23
+!i113 0
+R15
+R16

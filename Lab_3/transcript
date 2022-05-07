@@ -1,0 +1,658 @@
+# Compile of registers.vhd was successful.
+# Compile of tregisterswclues.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of registers.vhd was successful.
+# Compile of registers.vhd failed with 8 errors.
+# Compile of registers.vhd failed with 8 errors.
+# Compile of registers.vhd failed with 8 errors.
+# Compile of registers.vhd failed with 8 errors.
+# Compile of registers.vhd failed with 1 errors.
+# Compile of registers.vhd failed with 1 errors.
+# Compile of registers.vhd failed with 4 errors.
+# Compile of registers.vhd failed with 2 errors.
+# Compile of registers.vhd failed with 2 errors.
+# Compile of registers.vhd failed with 2 errors.
+# Compile of registers.vhd failed with 2 errors.
+# Compile of registers.vhd failed with 2 errors.
+# Compile of registers.vhd failed with 2 errors.
+# Compile of registers.vhd failed with 1 errors.
+# Compile of registers.vhd failed with 1 errors.
+# Compile of registers.vhd was successful.
+# Compile of registers.vhd failed with 1 errors.
+# Compile of registers.vhd failed with 9 errors.
+# Compile of registers.vhd failed with 9 errors.
+# Compile of registers.vhd failed with 9 errors.
+# Compile of registers.vhd failed with 9 errors.
+# Compile of registers.vhd failed with 2 errors.
+# Compile of registers.vhd failed with 2 errors.
+# Compile of registers.vhd failed with 2 errors.
+# Compile of registers.vhd failed with 1 errors.
+# Compile of registers.vhd failed with 3 errors.
+# Compile of registers.vhd failed with 2 errors.
+# Compile of registers.vhd was successful with warnings.
+# Compile of registers.vhd was successful.
+# Compile of registers.vhd was successful.
+# Compile of tregisterswclues.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.testreg_vhd
+# vsim -voptargs="+acc" work.testreg_vhd 
+# Start time: 16:28:53 on Apr 29,2022
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading work.testreg_vhd(behavior)#1
+# Loading work.adder_subtracter(calc)#1
+# Loading work.fulladder(addlike)#1
+# Loading work.register32(biggermem)#1
+# Loading work.shift_register(shifter)#1
+# ** Warning: (vsim-8683) Uninitialized out port /testreg_vhd/uut2/dataout(31 downto 0) has no driver.
+# This port will contribute value (32'hXXXXXXXX) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /testreg_vhd/uut3/dataout(31 downto 0) has no driver.
+# This port will contribute value (32'hXXXXXXXX) to the signal network.
+add wave -position insertpoint sim:/testreg_vhd/*
+run
+run
+run
+run
+run
+run
+# Compile of registers.vhd was successful.
+# Compile of tregisterswclues.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading work.testreg_vhd(behavior)#1
+# Loading work.adder_subtracter(calc)#1
+# Loading work.fulladder(addlike)#1
+# Loading work.register32(biggermem)#1
+# Loading work.shift_register(shifter)#1
+# ** Warning: (vsim-8683) Uninitialized out port /testreg_vhd/uut2/dataout(31 downto 0) has no driver.
+# This port will contribute value (32'hXXXXXXXX) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /testreg_vhd/uut3/dataout(31 downto 0) has no driver.
+# This port will contribute value (32'hXXXXXXXX) to the signal network.
+run
+run
+run
+# Compile of registers.vhd was successful.
+# Compile of tregisterswclues.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+# ** Error: Acs sdne.
+# 
+#        Unable to replace existing ini file (C:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/Lab_3/Lab_3.mpf).  File can not be renamed.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading work.testreg_vhd(behavior)#1
+# Loading work.adder_subtracter(calc)#1
+# Loading work.fulladder(addlike)#1
+# Loading work.register32(biggermem)#1
+# Loading work.shift_register(shifter)#1
+# ** Warning: (vsim-8683) Uninitialized out port /testreg_vhd/uut2/dataout(31 downto 0) has no driver.
+# This port will contribute value (32'hXXXXXXXX) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /testreg_vhd/uut3/dataout(31 downto 0) has no driver.
+# This port will contribute value (32'hXXXXXXXX) to the signal network.
+run
+run
+run
+# Compile of registers.vhd was successful.
+# Compile of registers.vhd failed with 8 errors.
+# Compile of registers.vhd was successful with warnings.
+# Compile of registers.vhd was successful with warnings.
+# Compile of registers.vhd was successful with warnings.
+# Compile of registers.vhd was successful with warnings.
+vsim -voptargs=+acc work.testreg_vhd
+# End time: 16:53:14 on Apr 30,2022, Elapsed time: 24:24:21
+# Errors: 0, Warnings: 9
+# vsim -voptargs="+acc" work.testreg_vhd 
+# Start time: 16:53:15 on Apr 30,2022
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading work.testreg_vhd(behavior)#1
+# Loading work.adder_subtracter(calc)#1
+# Loading work.fulladder(addlike)#1
+# Loading work.register32(biggermem)#1
+# Loading work.shift_register(shifter)#1
+# ** Warning: (vsim-8683) Uninitialized out port /testreg_vhd/uut2/dataout(31 downto 0) has no driver.
+# This port will contribute value (32'hXXXXXXXX) to the signal network.
+add wave -position insertpoint  \
+sim:/testreg_vhd/add_sub \
+sim:/testreg_vhd/datain_a \
+sim:/testreg_vhd/datain_b \
+sim:/testreg_vhd/data \
+sim:/testreg_vhd/datain \
+sim:/testreg_vhd/dir \
+sim:/testreg_vhd/shamt \
+sim:/testreg_vhd/enout32 \
+sim:/testreg_vhd/enout16 \
+sim:/testreg_vhd/enout8 \
+sim:/testreg_vhd/writein32 \
+sim:/testreg_vhd/writein16 \
+sim:/testreg_vhd/writein8 \
+sim:/testreg_vhd/addsubdataout \
+sim:/testreg_vhd/shdataout \
+sim:/testreg_vhd/dataout \
+sim:/testreg_vhd/co
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of registers.vhd was successful with warnings.
+# Compile of registers.vhd failed with 6 errors.
+# Compile of registers.vhd was successful with warnings.
+# Compile of registers.vhd was successful with warnings.
+# Compile of tregisterswclues.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.testreg_vhd
+# End time: 17:00:03 on Apr 30,2022, Elapsed time: 0:06:48
+# Errors: 0, Warnings: 6
+# vsim -voptargs="+acc" work.testreg_vhd 
+# Start time: 17:00:03 on Apr 30,2022
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading work.testreg_vhd(behavior)#1
+# Loading work.adder_subtracter(calc)#1
+# Loading work.fulladder(addlike)#1
+# Loading work.register32(biggermem)#1
+# Loading work.shift_register(shifter)#1
+# ** Warning: (vsim-8683) Uninitialized out port /testreg_vhd/uut2/dataout(31 downto 0) has no driver.
+# This port will contribute value (32'hXXXXXXXX) to the signal network.
+add wave -position insertpoint  \
+sim:/testreg_vhd/add_sub \
+sim:/testreg_vhd/datain_a \
+sim:/testreg_vhd/datain_b \
+sim:/testreg_vhd/data \
+sim:/testreg_vhd/datain \
+sim:/testreg_vhd/dir \
+sim:/testreg_vhd/shamt \
+sim:/testreg_vhd/enout32 \
+sim:/testreg_vhd/enout16 \
+sim:/testreg_vhd/enout8 \
+sim:/testreg_vhd/writein32 \
+sim:/testreg_vhd/writein16 \
+sim:/testreg_vhd/writein8 \
+sim:/testreg_vhd/addsubdataout \
+sim:/testreg_vhd/shdataout \
+sim:/testreg_vhd/dataout \
+sim:/testreg_vhd/co
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of registers.vhd was successful with warnings.
+vsim -voptargs=+acc work.testreg_vhd
+# End time: 17:01:40 on Apr 30,2022, Elapsed time: 0:01:37
+# Errors: 0, Warnings: 3
+# vsim -voptargs="+acc" work.testreg_vhd 
+# Start time: 17:01:40 on Apr 30,2022
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading work.testreg_vhd(behavior)#1
+# Loading work.adder_subtracter(calc)#1
+# Loading work.fulladder(addlike)#1
+# Loading work.register32(biggermem)#1
+# Loading work.shift_register(shifter)#1
+# ** Warning: (vsim-8683) Uninitialized out port /testreg_vhd/uut2/dataout(31 downto 0) has no driver.
+# This port will contribute value (32'hXXXXXXXX) to the signal network.
+add wave -position insertpoint  \
+sim:/testreg_vhd/add_sub \
+sim:/testreg_vhd/datain_a \
+sim:/testreg_vhd/datain_b \
+sim:/testreg_vhd/data \
+sim:/testreg_vhd/datain \
+sim:/testreg_vhd/dir \
+sim:/testreg_vhd/shamt \
+sim:/testreg_vhd/enout32 \
+sim:/testreg_vhd/enout16 \
+sim:/testreg_vhd/enout8 \
+sim:/testreg_vhd/writein32 \
+sim:/testreg_vhd/writein16 \
+sim:/testreg_vhd/writein8 \
+sim:/testreg_vhd/addsubdataout \
+sim:/testreg_vhd/shdataout \
+sim:/testreg_vhd/dataout \
+sim:/testreg_vhd/co
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of registers.vhd was successful with warnings.
+vsim -voptargs=+acc work.testreg_vhd
+# End time: 17:02:34 on Apr 30,2022, Elapsed time: 0:00:54
+# Errors: 0, Warnings: 3
+# vsim -voptargs="+acc" work.testreg_vhd 
+# Start time: 17:02:34 on Apr 30,2022
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading work.testreg_vhd(behavior)#1
+# Loading work.adder_subtracter(calc)#1
+# Loading work.fulladder(addlike)#1
+# Loading work.register32(biggermem)#1
+# Loading work.shift_register(shifter)#1
+# ** Warning: (vsim-8683) Uninitialized out port /testreg_vhd/uut2/dataout(31 downto 0) has no driver.
+# This port will contribute value (32'hXXXXXXXX) to the signal network.
+add wave -position insertpoint  \
+sim:/testreg_vhd/add_sub \
+sim:/testreg_vhd/datain_a \
+sim:/testreg_vhd/datain_b \
+sim:/testreg_vhd/data \
+sim:/testreg_vhd/datain \
+sim:/testreg_vhd/dir \
+sim:/testreg_vhd/shamt \
+sim:/testreg_vhd/enout32 \
+sim:/testreg_vhd/enout16 \
+sim:/testreg_vhd/enout8 \
+sim:/testreg_vhd/writein32 \
+sim:/testreg_vhd/writein16 \
+sim:/testreg_vhd/writein8 \
+sim:/testreg_vhd/addsubdataout \
+sim:/testreg_vhd/shdataout \
+sim:/testreg_vhd/dataout \
+sim:/testreg_vhd/co
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of registers.vhd was successful with warnings.
+vsim -voptargs=+acc work.testreg_vhd
+# End time: 17:04:08 on Apr 30,2022, Elapsed time: 0:01:34
+# Errors: 0, Warnings: 3
+# vsim -voptargs="+acc" work.testreg_vhd 
+# Start time: 17:04:08 on Apr 30,2022
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading work.testreg_vhd(behavior)#1
+# Loading work.adder_subtracter(calc)#1
+# Loading work.fulladder(addlike)#1
+# Loading work.register32(biggermem)#1
+# Loading work.shift_register(shifter)#1
+# ** Warning: (vsim-8683) Uninitialized out port /testreg_vhd/uut2/dataout(31 downto 0) has no driver.
+# This port will contribute value (32'hXXXXXXXX) to the signal network.
+add wave -position insertpoint  \
+sim:/testreg_vhd/dataout
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of registers.vhd was successful with warnings.
+# Compile of registers.vhd was successful with warnings.
+# Compile of registers.vhd was successful with warnings.
+# Compile of registers.vhd was successful with warnings.
+# Compile of registers.vhd failed with 6 errors.
+# Compile of registers.vhd was successful with warnings.
+# Compile of registers.vhd was successful with warnings.
+# Compile of registers.vhd failed with 9 errors.
+# Compile of registers.vhd failed with 9 errors.
+# Compile of registers.vhd failed with 9 errors.
+# Compile of registers.vhd failed with 2 errors.
+# Compile of registers.vhd was successful with warnings.
+# Compile of registers.vhd was successful with warnings.
+vsim -voptargs=+acc work.testreg_vhd
+# End time: 19:20:07 on Apr 30,2022, Elapsed time: 2:15:59
+# Errors: 0, Warnings: 15
+# vsim -voptargs="+acc" work.testreg_vhd 
+# Start time: 19:20:07 on Apr 30,2022
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading work.testreg_vhd(behavior)#1
+# Loading work.adder_subtracter(calc)#1
+# Loading work.fulladder(addlike)#1
+# Loading work.register32(biggermem)#1
+# Loading work.shift_register(shifter)#1
+# ** Warning: (vsim-8683) Uninitialized out port /testreg_vhd/uut2/dataout(31 downto 0) has no driver.
+# This port will contribute value (32'hXXXXXXXX) to the signal network.
+add wave -position insertpoint  \
+sim:/testreg_vhd/add_sub \
+sim:/testreg_vhd/datain_a \
+sim:/testreg_vhd/datain_b \
+sim:/testreg_vhd/data \
+sim:/testreg_vhd/datain \
+sim:/testreg_vhd/dir \
+sim:/testreg_vhd/shamt \
+sim:/testreg_vhd/enout32 \
+sim:/testreg_vhd/enout16 \
+sim:/testreg_vhd/enout8 \
+sim:/testreg_vhd/writein32 \
+sim:/testreg_vhd/writein16 \
+sim:/testreg_vhd/writein8 \
+sim:/testreg_vhd/addsubdataout \
+sim:/testreg_vhd/shdataout \
+sim:/testreg_vhd/dataout \
+sim:/testreg_vhd/co
+run
+run
+run
+run
+run
+run
+run
+run
+vsim -voptargs=+acc work.testreg_vhd
+# End time: 19:22:39 on Apr 30,2022, Elapsed time: 0:02:32
+# Errors: 0, Warnings: 2
+# vsim -voptargs="+acc" work.testreg_vhd 
+# Start time: 19:22:39 on Apr 30,2022
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading work.testreg_vhd(behavior)#1
+# Loading work.adder_subtracter(calc)#1
+# Loading work.fulladder(addlike)#1
+# Loading work.register32(biggermem)#1
+# Loading work.shift_register(shifter)#1
+# ** Warning: (vsim-8683) Uninitialized out port /testreg_vhd/uut2/dataout(31 downto 0) has no driver.
+# This port will contribute value (32'hXXXXXXXX) to the signal network.
+add wave -position insertpoint  \
+sim:/testreg_vhd/add_sub \
+sim:/testreg_vhd/datain_a \
+sim:/testreg_vhd/datain_b \
+sim:/testreg_vhd/data \
+sim:/testreg_vhd/datain \
+sim:/testreg_vhd/dir \
+sim:/testreg_vhd/shamt \
+sim:/testreg_vhd/enout32 \
+sim:/testreg_vhd/enout16 \
+sim:/testreg_vhd/enout8 \
+sim:/testreg_vhd/writein32 \
+sim:/testreg_vhd/writein16 \
+sim:/testreg_vhd/writein8 \
+sim:/testreg_vhd/addsubdataout \
+sim:/testreg_vhd/shdataout \
+sim:/testreg_vhd/dataout \
+sim:/testreg_vhd/co
+run
+run
+run
+run
+run
+run
+# Causality operation skipped due to absence of debug database file
+# Compile of registers.vhd was successful with warnings.
+vsim -voptargs=+acc work.testreg_vhd
+# End time: 19:20:14 on May 01,2022, Elapsed time: 23:57:35
+# Errors: 0, Warnings: 3
+# vsim -voptargs="+acc" work.testreg_vhd 
+# Start time: 19:20:14 on May 01,2022
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading work.testreg_vhd(behavior)#1
+# Loading work.adder_subtracter(calc)#1
+# Loading work.fulladder(addlike)#1
+# Loading work.register32(biggermem)#1
+# Loading work.register8(memmy)#1
+# Loading work.bitstorage(memlike)#1
+# Loading work.shift_register(shifter)#1
+add wave -position insertpoint  \
+sim:/testreg_vhd/add_sub \
+sim:/testreg_vhd/datain_a \
+sim:/testreg_vhd/datain_b \
+sim:/testreg_vhd/data \
+sim:/testreg_vhd/datain \
+sim:/testreg_vhd/dir \
+sim:/testreg_vhd/shamt \
+sim:/testreg_vhd/enout32 \
+sim:/testreg_vhd/enout16 \
+sim:/testreg_vhd/enout8 \
+sim:/testreg_vhd/writein32 \
+sim:/testreg_vhd/writein16 \
+sim:/testreg_vhd/writein8 \
+sim:/testreg_vhd/addsubdataout \
+sim:/testreg_vhd/shdataout \
+sim:/testreg_vhd/dataout \
+sim:/testreg_vhd/co
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+vsim -voptargs=+acc work.testreg_vhd
+# End time: 19:23:57 on May 01,2022, Elapsed time: 0:03:43
+# Errors: 0, Warnings: 1
+# vsim -voptargs="+acc" work.testreg_vhd 
+# Start time: 19:23:58 on May 01,2022
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading work.testreg_vhd(behavior)#1
+# Loading work.adder_subtracter(calc)#1
+# Loading work.fulladder(addlike)#1
+# Loading work.register32(biggermem)#1
+# Loading work.register8(memmy)#1
+# Loading work.bitstorage(memlike)#1
+# Loading work.shift_register(shifter)#1
+vsim -voptargs=+acc work.testreg_vhd
+# End time: 19:24:43 on May 01,2022, Elapsed time: 0:00:45
+# Errors: 0, Warnings: 1
+# vsim -voptargs="+acc" work.testreg_vhd 
+# Start time: 19:24:43 on May 01,2022
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading work.testreg_vhd(behavior)#1
+# Loading work.adder_subtracter(calc)#1
+# Loading work.fulladder(addlike)#1
+# Loading work.register32(biggermem)#1
+# Loading work.register8(memmy)#1
+# Loading work.bitstorage(memlike)#1
+# Loading work.shift_register(shifter)#1
+add wave -position insertpoint  \
+sim:/testreg_vhd/add_sub \
+sim:/testreg_vhd/datain_a \
+sim:/testreg_vhd/datain_b \
+sim:/testreg_vhd/data \
+sim:/testreg_vhd/datain \
+sim:/testreg_vhd/dir \
+sim:/testreg_vhd/shamt \
+sim:/testreg_vhd/enout32 \
+sim:/testreg_vhd/enout16 \
+sim:/testreg_vhd/enout8 \
+sim:/testreg_vhd/writein32 \
+sim:/testreg_vhd/writein16 \
+sim:/testreg_vhd/writein8 \
+sim:/testreg_vhd/addsubdataout \
+sim:/testreg_vhd/shdataout \
+sim:/testreg_vhd/dataout \
+sim:/testreg_vhd/co
+run
+run
+run
+run
+run
+run
+run
+run
+vsim -voptargs=+acc work.testreg_vhd
+# End time: 19:27:09 on May 01,2022, Elapsed time: 0:02:26
+# Errors: 0, Warnings: 1
+# vsim -voptargs="+acc" work.testreg_vhd 
+# Start time: 19:27:09 on May 01,2022
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading work.testreg_vhd(behavior)#1
+# Loading work.adder_subtracter(calc)#1
+# Loading work.fulladder(addlike)#1
+# Loading work.register32(biggermem)#1
+# Loading work.register8(memmy)#1
+# Loading work.bitstorage(memlike)#1
+# Loading work.shift_register(shifter)#1
+add wave -position insertpoint  \
+sim:/testreg_vhd/add_sub \
+sim:/testreg_vhd/datain_a \
+sim:/testreg_vhd/datain_b \
+sim:/testreg_vhd/data \
+sim:/testreg_vhd/datain \
+sim:/testreg_vhd/dir \
+sim:/testreg_vhd/shamt \
+sim:/testreg_vhd/enout32 \
+sim:/testreg_vhd/enout16 \
+sim:/testreg_vhd/enout8 \
+sim:/testreg_vhd/writein32 \
+sim:/testreg_vhd/writein16 \
+sim:/testreg_vhd/writein8 \
+sim:/testreg_vhd/addsubdataout \
+sim:/testreg_vhd/shdataout \
+sim:/testreg_vhd/dataout \
+sim:/testreg_vhd/co
+run
+run
+run
+run
+run
+run
+run
+run
+run
+vsim -voptargs=+acc work.testreg_vhd
+# End time: 19:30:08 on May 01,2022, Elapsed time: 0:02:59
+# Errors: 0, Warnings: 1
+# vsim -voptargs="+acc" work.testreg_vhd 
+# Start time: 19:30:08 on May 01,2022
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading work.testreg_vhd(behavior)#1
+# Loading work.adder_subtracter(calc)#1
+# Loading work.fulladder(addlike)#1
+# Loading work.register32(biggermem)#1
+# Loading work.register8(memmy)#1
+# Loading work.bitstorage(memlike)#1
+# Loading work.shift_register(shifter)#1
+add wave -position insertpoint  \
+sim:/testreg_vhd/add_sub \
+sim:/testreg_vhd/datain_a \
+sim:/testreg_vhd/datain_b \
+sim:/testreg_vhd/data \
+sim:/testreg_vhd/datain \
+sim:/testreg_vhd/dir \
+sim:/testreg_vhd/shamt \
+sim:/testreg_vhd/enout32 \
+sim:/testreg_vhd/enout16 \
+sim:/testreg_vhd/enout8 \
+sim:/testreg_vhd/writein32 \
+sim:/testreg_vhd/writein16 \
+sim:/testreg_vhd/writein8 \
+sim:/testreg_vhd/addsubdataout \
+sim:/testreg_vhd/shdataout \
+sim:/testreg_vhd/dataout \
+sim:/testreg_vhd/co
+run
+run
+run
+run
+run
+run
+run
+run
+# Can't move the Now cursor.
