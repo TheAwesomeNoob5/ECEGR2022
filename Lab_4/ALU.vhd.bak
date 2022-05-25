@@ -41,6 +41,7 @@ architecture ALU_Arch of ALU is
 	SIGNAL instruct5: std_logic_vector(31 downto 0);
 	SIGNAL instruct6: std_logic_vector(31 downto 0);
 	SIGNAL instruct7: std_logic_vector(31 downto 0);
+	SIGNAL instruct8: std_logic_vector(31 downto 0);
 
 begin
 	-- Add ALU VHDL implementation here
@@ -66,7 +67,7 @@ begin
 				instruct5 when "01000",
 				instruct6 when "01001",
 				instruct7 when "01010",
-				X"00000000" when others;
+				instruct8 when others;
 				
 end architecture ALU_Arch;
 

@@ -1,0 +1,425 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+R0
+!s11e vcom 2021.2 2021.04, Apr 14 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dC:/intelFPGA/21.1
+T_opt
+!s110 1652915092
+V_CH?@=>l;NdC?cmK5ZSoX0
+Z2 04 11 8 work testalu_vhd behavior 1
+=1-38fc98b0a833-62857b93-6d-51f8
+Z3 !s124 OEM10U105 
+o-quiet -auto_acc_if_foreign -work work
+Z4 tCvgOpt 0
+n@_opt
+Z5 OL;O;2021.2;73
+R1
+T_opt1
+!s110 1652918878
+V>P9AQ^^?V`llX>HBlnJ>:2
+R2
+=5-38fc98b0a833-62858a5d-18d-2cbc
+R3
+Z6 o-quiet -auto_acc_if_foreign -work work +acc
+R4
+n@_opt1
+R5
+R1
+T_opt2
+!s110 1653520344
+VPgcP2mRac6Q_?f6c]80DA1
+R2
+=1-38fc98b0a833-628eb7d6-293-738
+R3
+R6
+R4
+n@_opt2
+R5
+Eadder_subtracter
+Z7 w1652311398
+Z8 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z9 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z10 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z11 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z12 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 2
+Z13 dC:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_4
+Z14 8C:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_3/registers.vhd
+Z15 FC:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_3/registers.vhd
+l0
+L149 1
+V]7Z^`2HWkS^O?i[iU3bfe2
+!s100 >JRimG6=F<8WgPeR5L`RO1
+Z16 OL;C;2021.2;73
+32
+Z17 !s110 1652853813
+!i10b 1
+Z18 !s108 1652853813.000000
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_3/registers.vhd|
+Z20 !s107 C:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_3/registers.vhd|
+!i113 0
+Z21 o-work work -2002 -explicit
+Z22 tExplicit 1 CvgOpt 0
+Acalc
+R8
+R9
+R10
+R11
+R12
+DEx4 work 16 adder_subtracter 0 22 ]7Z^`2HWkS^O?i[iU3bfe2
+!i122 2
+l171
+L157 26
+VPHJ0@PaNz@PSQk6YUGoRI3
+!s100 F9X<;<P3YC>OUmmN]JTj<0
+R16
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 0
+R21
+R22
+Ealu
+Z23 w1652915398
+R8
+R9
+R10
+R11
+R12
+!i122 19
+R13
+Z24 8C:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_4/ALU.vhd
+Z25 FC:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_4/ALU.vhd
+l0
+Z26 L12 1
+V4:GEf6NeMCTYXXjWbC?Xk0
+!s100 KchH19m_<W<oUzZb`NQV=3
+R16
+32
+Z27 !s110 1652915404
+!i10b 1
+Z28 !s108 1652915404.000000
+Z29 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_4/ALU.vhd|
+Z30 !s107 C:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_4/ALU.vhd|
+!i113 0
+R21
+R22
+Aalu_arch
+R8
+R9
+R10
+R11
+R12
+DEx4 work 3 alu 0 22 4:GEf6NeMCTYXXjWbC?Xk0
+!i122 19
+l46
+L20 53
+VM93V5z5Q^]dzBlKng8zSo0
+!s100 3nV;^bFPeaPo;BK0Aac4O0
+R16
+32
+R27
+!i10b 1
+R28
+R29
+R30
+!i113 0
+R21
+R22
+Ebitstorage
+R7
+R8
+R9
+R10
+R11
+R12
+!i122 2
+R13
+R14
+R15
+l0
+R26
+VdCGWj`@VbHgV172Jg^EQX1
+!s100 WJnIlGlmDL72kEaZWY7LI2
+R16
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 0
+R21
+R22
+Amemlike
+R8
+R9
+R10
+R11
+R12
+DEx4 work 10 bitstorage 0 22 dCGWj`@VbHgV172Jg^EQX1
+!i122 2
+l21
+L19 13
+V<KY=mN>W^6@>cW`V]6Y^Y2
+!s100 >C<lEnBjkno6BlaBg7zNz3
+R16
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 0
+R21
+R22
+Efulladder
+R7
+R8
+R9
+R10
+R11
+R12
+!i122 2
+R13
+R14
+R15
+l0
+L39 1
+V=FPW_d1N0HAmBXP_4FHUj0
+!s100 MPWGQOD3M^:9b24Oc4LP:1
+R16
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 0
+R21
+R22
+Aaddlike
+R8
+R9
+R10
+R11
+R12
+DEx4 work 9 fulladder 0 22 =FPW_d1N0HAmBXP_4FHUj0
+!i122 2
+l49
+L48 5
+VYAZhA1hLlNW^KgldE^3f01
+!s100 <Eni[?PWcgZ?5R]=[zAgg3
+R16
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 0
+R21
+R22
+Eregister32
+R7
+R8
+R9
+R10
+R11
+R12
+!i122 2
+R13
+R14
+R15
+l0
+L95 1
+V;eE0M^gHZYBK[KVXCdAZR2
+!s100 PgdW1QnW6Vn_KFVVAT^c22
+R16
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 0
+R21
+R22
+Abiggermem
+R8
+R9
+R10
+R11
+R12
+DEx4 work 10 register32 0 22 ;eE0M^gHZYBK[KVXCdAZR2
+!i122 2
+l116
+L102 40
+VBGW7S@04A>SW0_?ZWW:j=2
+!s100 4;kDVozfl`[[R57399I;83
+R16
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 0
+R21
+R22
+Eregister8
+R7
+R8
+R9
+R10
+R11
+R12
+!i122 2
+R13
+R14
+R15
+l0
+L61 1
+VCmLjgjT4F;9OEK[DbRco72
+!s100 DGz4Yz>el_lHHIC:Ik3m10
+R16
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 0
+R21
+R22
+Amemmy
+R8
+R9
+R10
+R11
+R12
+DEx4 work 9 register8 0 22 CmLjgjT4F;9OEK[DbRco72
+!i122 2
+l75
+L68 20
+VT2iQ8@DW__=O^6`LoW_6K3
+!s100 ^j<mDSL89]5k4oPid7WN]0
+R16
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 0
+R21
+R22
+Eshift_register
+R7
+R8
+R9
+R10
+R11
+R12
+!i122 2
+R13
+R14
+R15
+l0
+L190 1
+VI]oKE<>AX0m]3GK8c@EYY2
+!s100 zkiKeOgci7DDPO3_jSglk2
+R16
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 0
+R21
+R22
+Ashifter
+R8
+R9
+R10
+R11
+R12
+DEx4 work 14 shift_register 0 22 I]oKE<>AX0m]3GK8c@EYY2
+!i122 2
+l199
+L197 13
+VRAzKAf^`?^Dnc5JdmN@>l0
+!s100 W88za=1E7`a3C27mO4cAI0
+R16
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 0
+R21
+R22
+Etestalu_vhd
+Z31 w1652917050
+R10
+R8
+R9
+R11
+R12
+!i122 21
+R13
+Z32 8C:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_4/tALU.vhd
+Z33 FC:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_4/tALU.vhd
+l0
+L11 1
+VY]f:i7kbzg[>3;WC@NaMX1
+!s100 R@FPf6HaOUd?f1KE>5<c50
+R16
+32
+Z34 !s110 1652917054
+!i10b 1
+Z35 !s108 1652917054.000000
+Z36 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_4/tALU.vhd|
+Z37 !s107 C:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_4/tALU.vhd|
+!i113 0
+R21
+R22
+Abehavior
+R10
+R8
+R9
+R11
+R12
+DEx4 work 11 testalu_vhd 0 22 Y]f:i7kbzg[>3;WC@NaMX1
+!i122 21
+l34
+L14 137
+V@B:0iLbLB_9;g:h:8]>gQ0
+!s100 id6g75F0mZG=M]kXoDVG21
+R16
+32
+R34
+!i10b 1
+R35
+R36
+R37
+!i113 0
+R21
+R22

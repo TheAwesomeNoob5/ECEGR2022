@@ -1,0 +1,45 @@
+vsim -voptargs=+acc work.testalu_vhd
+# vsim -voptargs="+acc" work.testalu_vhd 
+# Start time: 16:12:21 on May 25,2022
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading work.testalu_vhd(behavior)#1
+# Loading work.alu(alu_arch)#1
+# Loading work.adder_subtracter(calc)#1
+# Loading work.fulladder(addlike)#1
+# Loading work.shift_register(shifter)#1
+add wave -position insertpoint  \
+sim:/testalu_vhd/datain_a \
+sim:/testalu_vhd/datain_b \
+sim:/testalu_vhd/control \
+sim:/testalu_vhd/result \
+sim:/testalu_vhd/zeroOut
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: cheun  Hostname: LAPTOP-KC4RSFUE  ProcessID: 11452
+#           Attempting to use alternate WLF file "./wlft9rdynq".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft9rdynq
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
