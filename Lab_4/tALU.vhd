@@ -138,7 +138,7 @@ BEGIN
 
 		wait for 100 ns;
 
-		-- srli
+		-- other
 		datain_a <= X"01234567";
 		datain_b <= X"00000011";
 		control  <= "01011";		

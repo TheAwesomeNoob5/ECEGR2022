@@ -3,7 +3,7 @@
 
 main:
 	
-	addi t2,zero,20	#n is equal to 10
+	addi t2,zero,20		#n is equal to 10
 	jal Fib			#jumps to fibonacci
 	add t0, zero, a0
 	
@@ -15,7 +15,7 @@ Fib:
 	bge zero, t2, if	#if (n <= 0)
 	beq t2, t6, elseif	#else if (n == 1) 
 	
-	addi sp,sp,-8		#allocate space for 8 bits for Fibonacci(n-2) 
+	addi sp,sp,-8		#allocate space for 8 bits for Fibonacci(n-1) 
 	sw ra, 0(sp)
 	sw t2, 4(sp)
 	
@@ -23,13 +23,13 @@ Fib:
 	
 	jal Fib			#goes back to fib till n goes back to zero
 	
-	add a1, zero, a0	#saves the third biggest value to a1
+	add a1, zero, a0	#saves the second biggest value to a1
 	
 	lw ra, 0(sp)		
 	lw t2, 4(sp)
 	addi sp,sp,8		#restores the stack
 
-	addi sp,sp,-12		#allocate space for 12 bits for Fibonacci(n-3) 
+	addi sp,sp,-12		#allocate space for 12 bits for Fibonacci(n-2) 
 	sw ra, 0(sp)
 	sw t2, 4(sp)
 	sw a1, 8(sp)
@@ -38,7 +38,7 @@ Fib:
 	
 	jal Fib			#goes back to fib till n goes back to zero
 	
-	add a2,zero,a0		#saves the second biggest value to a2
+	add a2,zero,a0		#saves the third biggest value to a2
 	
 	lw ra, 0(sp)
 	lw t2, 4(sp)
