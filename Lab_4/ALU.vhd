@@ -56,16 +56,16 @@ begin
 	
 	with ALUCtrl select 
 	ALUResult <=    	instruct1 when "00000",
-				instruct2 when "00001",
+				instruct2 when "10001",
 				instruct3 when "00010",
 				DataIn1 or DataIn2 when "00011",
-				DataIn1 or DataIn2 when "00100",
+				DataIn1 or DataIn2 when "10100",
 				DataIn1 and DataIn2 when "00101",
-				DataIn1 and DataIn2 when "00110",
+				DataIn1 and DataIn2 when "10110",
 				instruct4 when "00111",
-				instruct5 when "01000",
+				instruct5 when "11000",
 				instruct6 when "01001",
-				instruct7 when "01010",
+				instruct7 when "11010",
 				X"00000000" when others;
 				
 end architecture ALU_Arch;

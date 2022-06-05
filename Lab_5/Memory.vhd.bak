@@ -34,7 +34,7 @@ begin
       end loop;
     end if;
 
-    if falling_edge(Clock) and WE = '1' and (to_integer(unsigned(Address(7 downto 0))) >= 0) and (to_integer(unsigned(Address)) <= 127) then
+    if falling_edge(Clock) and WE = '1' then
 	-- Add code to write data to RAM
 	-- Use to_integer(unsigned(Address)) to index the i_ram array
 	i_ram(to_integer(unsigned(Address(7 downto 0)))) <= DataIn;
@@ -43,7 +43,7 @@ begin
 	
 	-- Rest of the RAM implementation
 
-    if (OE = '0') and (to_integer(unsigned(Address)) < 127) and (to_integer(unsigned(Address)) >= 0) then
+    if (OE = '0')  then
 	DataOut <= i_ram(to_integer(unsigned(Address(7 downto 0))));
     else
 	DataOut <= (OTHERS => 'Z');

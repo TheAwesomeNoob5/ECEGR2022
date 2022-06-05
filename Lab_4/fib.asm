@@ -3,7 +3,7 @@
 
 main:
 	
-	addi t2,zero,20		#n is equal to 10
+	addi t2,zero,3		#n is equal to 10
 	jal Fib			#jumps to fibonacci
 	add t0, zero, a0
 	

@@ -59,7 +59,6 @@ begin
 			"11000" when opcode = "0010011" and funct3= "001"else				--slli
 			"01001" when opcode = "0110011" and funct3= "101" and funct7 = "0000000"else	--srl
 			"11010" when opcode = "0010011" and funct3= "101" else				--srli
-			"00001" when opcode = "1100011" else
 			(OTHERS => 'Z');
 
 	ALUCtrl <= Path;
