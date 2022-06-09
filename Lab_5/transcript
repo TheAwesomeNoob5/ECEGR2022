@@ -1,34 +1,38 @@
-# Compile of InstrMemory.vhd was successful.
-# Compile of ProcElements.vhd was successful.
-# Compile of Processor.vhd was successful.
-# Compile of tProcessor.vhd was successful.
 # Compile of Memory.vhd was successful.
-# Compile of ALU.vhd was successful.
+# Compile of tMemory.vhd was successful.
 # Compile of registers.vhd was successful with warnings.
-# 7 compiles, 0 failed with no errors.
-# Compile of ProcElements.vhd failed with 1 errors.
-# Compile of ProcElements.vhd was successful.
-# Compile of ProcElements.vhd failed with 1 errors.
-# Compile of ProcElements.vhd failed with 1 errors.
-# Compile of ProcElements.vhd was successful.
-# Compile of ALU.vhd was successful.
-# Compile of ProcElements.vhd failed with 1 errors.
-# Compile of ProcElements.vhd failed with 1 errors.
-# Compile of ProcElements.vhd failed with 1 errors.
-# Compile of ProcElements.vhd failed with 1 errors.
-# Compile of ProcElements.vhd failed with 1 errors.
-# Compile of ProcElements.vhd was successful.
-# Compile of ProcElements.vhd failed with 1 errors.
-# Compile of ProcElements.vhd was successful.
-# Compile of ProcElements.vhd was successful.
-# Compile of ProcElements.vhd was successful.
-# Compile of ProcElements.vhd was successful.
-# Compile of ProcElements.vhd was successful.
-# Compile of ProcElements.vhd was successful.
-# Compile of ProcElements.vhd failed with 1 errors.
-# Compile of ProcElements.vhd failed with 1 errors.
-# Compile of ProcElements.vhd was successful.
-# Compile of ProcElements.vhd was successful.
-# Compile of ProcElements.vhd was successful.
-# Compile of ProcElements.vhd was successful.
-# Compile of Processor.vhd was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.tmemory_vhd
+# vsim -voptargs="+acc" work.tmemory_vhd 
+# Start time: 11:19:33 on Jun 08,2022
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tmemory_vhd(behavior)#1
+# Loading work.ram(staticram)#1
+# Loading work.registers(remember)#1
+# Loading work.register32(biggermem)#1
+# Loading work.register8(memmy)#1
+# Loading work.bitstorage(memlike)#1
+add wave -position insertpoint sim:/tmemory_vhd/uut2/*
+run
+run
+run
+run
+run
+run
+add wave -position insertpoint sim:/tmemory_vhd/uut1/*
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+run
+run
+run
+run
+# End time: 11:33:04 on Jun 08,2022, Elapsed time: 0:13:31
+# Errors: 0, Warnings: 1
+# Closing project C:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_5/Lab_5.mpf

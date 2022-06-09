@@ -33,7 +33,8 @@ architecture ALU_Arch of ALU is
 			shamt:	in std_logic_vector(4 downto 0);
 			dataout: out std_logic_vector(31 downto 0));
 	end component shift_register;
-
+	SIGNAL temp: std_logic_vector(31 downto 0);
+	SIGNAL useless: std_logic;
 	SIGNAL instruct1: std_logic_vector(31 downto 0);
 	SIGNAL instruct2: std_logic_vector(31 downto 0);
 	SIGNAL instruct3: std_logic_vector(31 downto 0);
@@ -41,33 +42,52 @@ architecture ALU_Arch of ALU is
 	SIGNAL instruct5: std_logic_vector(31 downto 0);
 	SIGNAL instruct6: std_logic_vector(31 downto 0);
 	SIGNAL instruct7: std_logic_vector(31 downto 0);
+	SIGNAL addorsuborshift: std_logic;
 
 begin
 	-- Add ALU VHDL implementation here
-	add: adder_subtracter port map(DataIn1,DataIn2,'0', instruct1, Zero);	
-	addi: adder_subtracter port map(DataIn1,DataIn2,'0', instruct2, Zero);
-	sub: adder_subtracter port map(DataIn1,DataIn2,'1', instruct3, Zero);	
-	sllcmd: shift_register port map(DataIn1, '0', DataIn2(4 downto 0), instruct4);	
-	sllicmd: shift_register port map(DataIn1, '0', DataIn2(4 downto 0), instruct5);	
-	srlcmd: shift_register port map(DataIn1, '1', DataIn2(4 downto 0), instruct6);	
-	slricmd: shift_register port map(DataIn1, '1', DataIn2(4 downto 0), instruct7);	
+	add: adder_subtracter port map(DataIn1,DataIn2,addorsuborshift, instruct1, useless);	
+	addi: adder_subtracter port map(DataIn1,DataIn2,addorsuborshift, instruct2, useless);
+	sub: adder_subtracter port map(DataIn1,DataIn2,addorsuborshift, instruct3, useless);	
+	sllcmd: shift_register port map(DataIn1, addorsuborshift, DataIn2(4 downto 0), instruct4);	
+	sllicmd: shift_register port map(DataIn1, addorsuborshift, DataIn2(4 downto 0), instruct5);	
+	srlcmd: shift_register port map(DataIn1, addorsuborshift, DataIn2(4 downto 0), instruct6);	
+	slricmd: shift_register port map(DataIn1, addorsuborshift, DataIn2(4 downto 0), instruct7);	
 	
-		
-	
-	with ALUCtrl select 
-	ALUResult <=    	instruct1 when "00000",
+
+	with ALUCtrl select
+	addorsuborshift	<= 	'0' when "00000",
+				'0' when "10001",
+				'1' when "00010",
+				'0' when  "00011",
+				'0' when  "10100",
+				'0' when  "00101",
+				'0' when "10110",
+				'0' when "00111",
+				'0' when "11000",
+				'1' when "01001",
+				'1' when others;
+
+	with ALUCtrl select
+	temp <=    		instruct1 when "00000",
 				instruct2 when "10001",
 				instruct3 when "00010",
-				DataIn1 or DataIn2 when "00011",
-				DataIn1 or DataIn2 when "10100",
-				DataIn1 and DataIn2 when "00101",
+				DataIn1 or DataIn2 when  "00011",
+				DataIn1 or DataIn2 when  "10100",
+				DataIn1 and DataIn2 when  "00101",
 				DataIn1 and DataIn2 when "10110",
 				instruct4 when "00111",
 				instruct5 when "11000",
 				instruct6 when "01001",
 				instruct7 when "11010",
-				X"00000000" when others;
+				DataIn2 when others;
+				
+
+	ALUResult <= temp;
+
+	
+	Zero <= '1' when temp = x"00000000" else
+		'0';
+	
 				
 end architecture ALU_Arch;
-
-

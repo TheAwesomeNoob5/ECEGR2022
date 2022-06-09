@@ -9,7 +9,8 @@ Use ieee.numeric_std.all;
 Use ieee.std_logic_unsigned.all;
 
 entity RAM is
-    Port(Reset:	  in std_logic;
+    Port(
+	 Reset:	  in std_logic;
 	 Clock:	  in std_logic;	 
 	 OE:      in std_logic;
 	 WE:      in std_logic;
@@ -78,7 +79,6 @@ architecture remember of Registers is
 		 dataout: out std_logic_vector(31 downto 0));
 	end component;
 
-	SIGNAL x0: std_logic_vector(31 downto 0);
 	SIGNAL a0: std_logic_vector(31 downto 0);
 	SIGNAL a1: std_logic_vector(31 downto 0);
 	SIGNAL a2: std_logic_vector(31 downto 0);
@@ -88,18 +88,20 @@ architecture remember of Registers is
 	SIGNAL a6: std_logic_vector(31 downto 0);
 	SIGNAL a7: std_logic_vector(31 downto 0);
 	signal writing: std_logic_vector(7 downto 0);
+	signal temp: std_logic_vector(5 downto 0);
 
 begin
     -- Add your code here for the Register Bank implementation
-	with WriteReg select
-	writing <=      "10000000" when "01010",
-			"01000000" when "01011",
-			"00100000" when "01100",
-			"00010000" when "01101",
-			"00001000" when "01110",
-			"00000100" when "01111",
-			"00000010" when "10000",
-			"01000001" when "10001",
+	temp <= WriteCmd & WriteReg;
+	with temp select
+	writing <=      "10000000" when "101010",
+			"01000000" when "101011",
+			"00100000" when "101100",
+			"00010000" when "101101",
+			"00001000" when "101110",
+			"00000100" when "101111",
+			"00000010" when "110000",
+			"00000001" when "110001",
 			(others => '0') when others;
 	
 	RA0: register32 port map (WriteData,'0','1','1', writing(7),'0','0',a0);
@@ -133,5 +135,3 @@ begin
 				a7 when "10001",
 				X"00000000" when others;
 end remember;
-
-----------------------------------------------------------------------------------------------------------------------------------------------------------------

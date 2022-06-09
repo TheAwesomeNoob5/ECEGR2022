@@ -1,6 +1,131 @@
 m255
 K4
 z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
 !s11e vcom 2021.2 2021.04, Apr 14 2021
 13
 !s112 1.1
@@ -8,701 +133,734 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-dC:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_5
+Z1 dC:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_5
+T_opt
+!s110 1654746084
+VFaZ9o>7cb^F]k1<0i7lj11
+04 9 8 work processor holistic 1
+=1-38fc98b0a833-62a16be4-19e-9dd4
+!s124 OEM10U508 
+Z2 o-quiet -auto_acc_if_foreign -work work +acc
+Z3 tCvgOpt 0
+n@_opt
+Z4 OL;O;2021.2;73
+R1
+T_opt1
+!s110 1654806162
+VJef8F[cUCCo4Jz<5D8AB83
+04 14 8 work tprocessor_vhd behavior 1
+=1-38fc98b0a833-62a25691-272-7038
+!s124 OEM10U509 
+R2
+R3
+n@_opt1
+R4
+R1
+T_opt2
+!s110 1654745863
+V;1<efQ0ZjUMOkNVMLHJ7K1
+04 14 9 work programcounter executive 1
+=1-38fc98b0a833-62a16b07-206-7df0
+!s124 OEM10U1 
+R2
+R3
+n@_opt2
+R4
+R1
 Eadder_subtracter
-Z0 w1652311398
-Z1 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
-Z2 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
-Z3 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
-Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
-Z5 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
-!i122 6
-Z6 dC:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_6
-Z7 8C:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_3/registers.vhd
-Z8 FC:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_3/registers.vhd
+Z5 w1654588082
+Z6 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z7 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z8 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z9 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z10 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 706
+Z11 dC:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_6
+Z12 8C:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_3/registers.vhd
+Z13 FC:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_3/registers.vhd
 l0
 L149 1
 V]7Z^`2HWkS^O?i[iU3bfe2
 !s100 >JRimG6=F<8WgPeR5L`RO1
-Z9 OL;C;2021.2;73
+Z14 OL;C;2021.2;73
 32
-Z10 !s110 1654125102
+Z15 !s110 1654806559
 !i10b 1
-Z11 !s108 1654125102.000000
-Z12 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_3/registers.vhd|
-Z13 !s107 C:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_3/registers.vhd|
+Z16 !s108 1654806559.000000
+Z17 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_3/registers.vhd|
+Z18 !s107 C:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_3/registers.vhd|
 !i113 0
-Z14 o-work work -2002 -explicit
-Z15 tExplicit 1 CvgOpt 0
+Z19 o-work work -2002 -explicit
+Z20 tExplicit 1 CvgOpt 0
 Acalc
-R1
-R2
-R3
-R4
-R5
+R6
+R7
+R8
+R9
+R10
 DEx4 work 16 adder_subtracter 0 22 ]7Z^`2HWkS^O?i[iU3bfe2
-!i122 6
+!i122 706
 l171
 L157 26
 VPHJ0@PaNz@PSQk6YUGoRI3
 !s100 F9X<;<P3YC>OUmmN]JTj<0
-R9
-32
-R10
-!i10b 1
-R11
-R12
-R13
-!i113 0
 R14
-R15
-Ealu
-Z16 w1654374624
-R1
-R2
-R3
-R4
-R5
-!i122 12
-R6
-Z17 8C:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_4/ALU.vhd
-Z18 FC:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_4/ALU.vhd
-l0
-Z19 L12 1
-V4:GEf6NeMCTYXXjWbC?Xk0
-!s100 KchH19m_<W<oUzZb`NQV=3
-R9
 32
-Z20 !s110 1654374716
+R15
 !i10b 1
-Z21 !s108 1654374716.000000
-Z22 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_4/ALU.vhd|
-Z23 !s107 C:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_4/ALU.vhd|
+R16
+R17
+R18
 !i113 0
-R14
-R15
-Aalu_arch
-R1
-R2
-R3
-R4
-R5
-DEx4 work 3 alu 0 22 4:GEf6NeMCTYXXjWbC?Xk0
-!i122 12
-l45
-L20 52
-VQ7[4ao6?M^GEOm@>1PjDF3
-!s100 `FFz]S[?;KIRV06d97<8A0
-R9
-32
+R19
 R20
-!i10b 1
-R21
-R22
-R23
-!i113 0
-R14
-R15
-Ebitstorage
-R0
-R1
-R2
-R3
-R4
-R5
-!i122 6
+Ealu
+Z21 w1654756634
 R6
 R7
 R8
-l0
-R19
-VdCGWj`@VbHgV172Jg^EQX1
-!s100 WJnIlGlmDL72kEaZWY7LI2
 R9
-32
 R10
+!i122 694
+R11
+Z22 8C:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_4/ALU.vhd
+Z23 FC:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_4/ALU.vhd
+l0
+Z24 L12 1
+V4:GEf6NeMCTYXXjWbC?Xk0
+!s100 KchH19m_<W<oUzZb`NQV=3
+R14
+32
+Z25 !s110 1654806555
 !i10b 1
+Z26 !s108 1654806555.000000
+Z27 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_4/ALU.vhd|
+Z28 !s107 C:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_4/ALU.vhd|
+!i113 0
+R19
+R20
+Aalu_arch
+R6
+R7
+R8
+R9
+R10
+DEx4 work 3 alu 0 22 4:GEf6NeMCTYXXjWbC?Xk0
+!i122 694
+l47
+L20 74
+VgO5hb6PFhFZHYb<6:2MSf0
+!s100 _1e54P8iSc^oO@=KRWR2[0
+R14
+32
+R25
+!i10b 1
+R26
+R27
+R28
+!i113 0
+R19
+R20
+Ebitstorage
+R5
+R6
+R7
+R8
+R9
+R10
+!i122 706
 R11
 R12
 R13
-!i113 0
+l0
+R24
+VdCGWj`@VbHgV172Jg^EQX1
+!s100 WJnIlGlmDL72kEaZWY7LI2
 R14
+32
 R15
+!i10b 1
+R16
+R17
+R18
+!i113 0
+R19
+R20
 Amemlike
-R1
-R2
-R3
-R4
-R5
+R6
+R7
+R8
+R9
+R10
 DEx4 work 10 bitstorage 0 22 dCGWj`@VbHgV172Jg^EQX1
-!i122 6
+!i122 706
 l21
 L19 13
 V<KY=mN>W^6@>cW`V]6Y^Y2
 !s100 >C<lEnBjkno6BlaBg7zNz3
-R9
-32
-R10
-!i10b 1
-R11
-R12
-R13
-!i113 0
 R14
+32
 R15
+!i10b 1
+R16
+R17
+R18
+!i113 0
+R19
+R20
 Ebusmux2to1
-Z24 w1654388284
-R2
-R1
-R4
-R5
-!i122 31
+Z29 w1654806539
+R7
 R6
-Z25 8C:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_6/ProcElements.vhd
-Z26 FC:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_6/ProcElements.vhd
+R9
+R10
+!i122 701
+R11
+Z30 8C:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_6/ProcElements.vhd
+Z31 FC:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_6/ProcElements.vhd
 l0
-Z27 L11 1
+Z32 L11 1
 VQOQ=6Bb6nbPd6d`C@M2Wo0
 !s100 N144V5D>E9Toc`Eo`oMk00
-R9
-32
-Z28 !s110 1654391525
-!i10b 1
-Z29 !s108 1654391525.000000
-Z30 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_6/ProcElements.vhd|
-Z31 !s107 C:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_6/ProcElements.vhd|
-!i113 0
 R14
-R15
+32
+Z33 !s110 1654806557
+!i10b 1
+Z34 !s108 1654806557.000000
+Z35 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_6/ProcElements.vhd|
+Z36 !s107 C:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_6/ProcElements.vhd|
+!i113 0
+R19
+R20
 Aselection
-R2
-R1
-R4
-R5
+R7
+R6
+R9
+R10
 DEx4 work 10 busmux2to1 0 22 QOQ=6Bb6nbPd6d`C@M2Wo0
-!i122 31
+!i122 701
 l18
 L17 8
 VjbQdFT446=GIS`GBTc3aJ2
 !s100 =jfCd6<[C_bPih7^i:mA32
-R9
+R14
 32
-R28
+R33
 !i10b 1
+R34
+R35
+R36
+!i113 0
+R19
+R20
+Econtrol
 R29
+R7
+R6
+R9
+R10
+!i122 701
+R11
 R30
 R31
-!i113 0
-R14
-R15
-Econtrol
-R24
-R2
-R1
-R4
-R5
-!i122 31
-R6
-R25
-R26
 l0
 L32 1
 Voig@gYZ^;[65IzYDW841m3
 !s100 ;F]BU:1_6Va]a7?7z43Fl3
-R9
-32
-R28
-!i10b 1
-R29
-R30
-R31
-!i113 0
 R14
-R15
+32
+R33
+!i10b 1
+R34
+R35
+R36
+!i113 0
+R19
+R20
 Aboss
-R2
-R1
-R4
-R5
-DEx4 work 7 control 0 22 oig@gYZ^;[65IzYDW841m3
-!i122 31
-l49
-L47 53
-VEnbM^mRGL8e`KKo`Nk2V;2
-!s100 <hXZMjo9>6:N0iZNCM_QJ3
+R7
+R6
 R9
-32
-R28
-!i10b 1
-R29
-R30
-R31
-!i113 0
+R10
+DEx4 work 7 control 0 22 oig@gYZ^;[65IzYDW841m3
+!i122 701
+l49
+L47 50
+VcYjNQDG_7:iZfojbUjT0D2
+!s100 aeezOK@I]aXY_lU2Ecml53
 R14
-R15
+32
+R33
+!i10b 1
+R34
+R35
+R36
+!i113 0
+R19
+R20
 Efulladder
-R0
-R1
-R2
-R3
-R4
 R5
-!i122 6
 R6
 R7
 R8
+R9
+R10
+!i122 706
+R11
+R12
+R13
 l0
 L39 1
 V=FPW_d1N0HAmBXP_4FHUj0
 !s100 MPWGQOD3M^:9b24Oc4LP:1
-R9
-32
-R10
-!i10b 1
-R11
-R12
-R13
-!i113 0
 R14
+32
 R15
+!i10b 1
+R16
+R17
+R18
+!i113 0
+R19
+R20
 Aaddlike
-R1
-R2
-R3
-R4
-R5
+R6
+R7
+R8
+R9
+R10
 DEx4 work 9 fulladder 0 22 =FPW_d1N0HAmBXP_4FHUj0
-!i122 6
+!i122 706
 l49
 L48 5
 VYAZhA1hLlNW^KgldE^3f01
 !s100 <Eni[?PWcgZ?5R]=[zAgg3
-R9
-32
-R10
-!i10b 1
-R11
-R12
-R13
-!i113 0
 R14
+32
 R15
+!i10b 1
+R16
+R17
+R18
+!i113 0
+R19
+R20
 Einstructionram
-Z32 w1652311666
-R1
-R2
-R3
-R4
-R5
-!i122 0
+Z37 w1652311666
 R6
-Z33 8C:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_6/InstrMemory.vhd
-Z34 FC:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_6/InstrMemory.vhd
+R7
+R8
+R9
+R10
+!i122 699
+R11
+Z38 8C:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_6/InstrMemory.vhd
+Z39 FC:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_6/InstrMemory.vhd
 l0
-R27
+R32
 V66Om^UA6FP5;hL9MV1ok`0
 !s100 X;oSEnc^]dZ`]B<Sbo?Bb0
-R9
-32
-Z35 !s110 1654125101
-!i10b 1
-Z36 !s108 1654125100.000000
-Z37 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_6/InstrMemory.vhd|
-Z38 !s107 C:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_6/InstrMemory.vhd|
-!i113 0
 R14
-R15
+32
+R33
+!i10b 1
+R34
+Z40 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_6/InstrMemory.vhd|
+Z41 !s107 C:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_6/InstrMemory.vhd|
+!i113 0
+R19
+R20
 Ainstrucram
-R1
-R2
-R3
-R4
-R5
+R6
+R7
+R8
+R9
+R10
 DEx4 work 14 instructionram 0 22 66Om^UA6FP5;hL9MV1ok`0
-!i122 0
+!i122 699
 l24
 L18 40
 VQ>3WHikkm6j[aAVO_Xf;c3
 !s100 k19_^o4YCnGDe;OdWnHVl0
-R9
-32
-R35
-!i10b 1
-R36
-R37
-R38
-!i113 0
 R14
-R15
+32
+R33
+!i10b 1
+R34
+R40
+R41
+!i113 0
+R19
+R20
 Eprocessor
-Z39 w1654391523
-R2
-R1
-R4
-R5
-!i122 32
+Z42 w1654806445
+R7
 R6
-Z40 8C:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_6/Processor.vhd
-Z41 FC:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_6/Processor.vhd
+R9
+R10
+!i122 700
+R11
+Z43 8C:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_6/Processor.vhd
+Z44 FC:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_6/Processor.vhd
 l0
-R27
+R32
 VJJdje4838>?SDomi11GjW1
 !s100 9eE6SjzoQJ_k:9Fz?3[`n1
-R9
-32
-Z42 !s110 1654391529
-!i10b 1
-Z43 !s108 1654391529.000000
-Z44 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_6/Processor.vhd|
-Z45 !s107 C:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_6/Processor.vhd|
-!i113 0
 R14
-R15
+32
+R33
+!i10b 1
+R34
+Z45 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_6/Processor.vhd|
+Z46 !s107 C:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_6/Processor.vhd|
+!i113 0
+R19
+R20
 Aholistic
-R2
-R1
-R4
-R5
-Z46 DEx4 work 9 processor 0 22 JJdje4838>?SDomi11GjW1
-!i122 32
-l91
-L16 83
-VW[6XHCXXzf>[EbbSkVhPj0
-!s100 WT=h:ChL3kZK2TinWDEAB0
+R7
+R6
 R9
+R10
+DEx4 work 9 processor 0 22 JJdje4838>?SDomi11GjW1
+!i122 700
+l139
+L16 155
+V;`CNP`B2fRanZA1mVB8ed0
+!s100 X8`RBTRedUe>_LSSQzEe`2
+R14
 32
-R42
+R33
 !i10b 1
-R43
-R44
+R34
 R45
+R46
 !i113 0
-R14
-R15
+R19
+R20
 Eprogramcounter
-R24
-R2
-R1
-R4
-R5
-!i122 31
-R6
-R25
-R26
-l0
-L107 1
-VQb9d]K1ni56izT8eQKPZ`3
-!s100 VfX=MV4[_]2=EDWY[YkWl0
-R9
-32
-R28
-!i10b 1
 R29
+R7
+R6
+R9
+R10
+!i122 701
+R11
 R30
 R31
-!i113 0
+l0
+L104 1
+Vb?oz>h_MN2oKSUEmNbZb60
+!s100 oWD_`gWZKm1fXSle:]`@B0
 R14
-R15
+32
+R33
+!i10b 1
+R34
+R35
+R36
+!i113 0
+R19
+R20
 Aexecutive
-R2
-R1
-R4
-R5
-DEx4 work 14 programcounter 0 22 Qb9d]K1ni56izT8eQKPZ`3
-!i122 31
-l115
-L114 14
-V_XM8iO7L>mT>eWi4DNVh11
-!s100 g]gIdP]DCoe7`<1LLlaX22
-R9
-32
-R28
-!i10b 1
-R29
-R30
-R31
-!i113 0
-R14
-R15
-Eram
-Z47 w1654106063
-R1
-R2
-R3
-R4
-R5
-!i122 4
+R7
 R6
-Z48 8C:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_5/Memory.vhd
-Z49 FC:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_5/Memory.vhd
-l0
-R27
-VNc@NT[?`T^`5=oR;nc;z_2
-!s100 :B:Ji:295CNahda9_8<OC1
 R9
-32
 R10
-!i10b 1
-R11
-Z50 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_5/Memory.vhd|
-Z51 !s107 C:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_5/Memory.vhd|
-!i113 0
+DEx4 work 14 programcounter 0 22 b?oz>h_MN2oKSUEmNbZb60
+!i122 701
+l112
+L111 14
+VFj2PhnzKVR=JW2h44@Z2f2
+!s100 o:X@hY?k78?X6K]HZ]zT=2
 R14
-R15
-Astaticram
-R1
-R2
-R3
-R4
-R5
-DEx4 work 3 ram 0 22 Nc@NT[?`T^`5=oR;nc;z_2
-!i122 4
-l26
-L21 34
-V>Qa@jk^lH_:VTzm9GWfd=3
-!s100 ]lo1^LB_VG0D@T`C2TT;=1
-R9
 32
-R10
+R33
 !i10b 1
-R11
-R50
-R51
+R34
+R35
+R36
 !i113 0
-R14
-R15
-Eregister32
-R0
-R1
-R2
-R3
-R4
-R5
-!i122 6
+R19
+R20
+Eram
+Z47 w1654806103
 R6
 R7
 R8
+R9
+R10
+!i122 705
+R11
+Z48 8C:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_5/Memory.vhd
+Z49 FC:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_5/Memory.vhd
+l0
+R32
+VAc4G3Ug<OMJWe6TIN@9]@0
+!s100 Yd5RDkUWF@iUEaSTznmHa0
+R14
+32
+R15
+!i10b 1
+Z50 !s108 1654806558.000000
+Z51 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_5/Memory.vhd|
+Z52 !s107 C:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_5/Memory.vhd|
+!i113 0
+R19
+R20
+Astaticram
+R6
+R7
+R8
+R9
+R10
+DEx4 work 3 ram 0 22 Ac4G3Ug<OMJWe6TIN@9]@0
+!i122 705
+l27
+L22 34
+V8dQLBX5X2>TPXKFV0Kh;e2
+!s100 d=[Z4_n4YTe[X`T<9o?4?2
+R14
+32
+R15
+!i10b 1
+R50
+R51
+R52
+!i113 0
+R19
+R20
+Eregister32
+R5
+R6
+R7
+R8
+R9
+R10
+!i122 706
+R11
+R12
+R13
 l0
 L95 1
 V;eE0M^gHZYBK[KVXCdAZR2
 !s100 PgdW1QnW6Vn_KFVVAT^c22
-R9
-32
-R10
-!i10b 1
-R11
-R12
-R13
-!i113 0
 R14
+32
 R15
+!i10b 1
+R16
+R17
+R18
+!i113 0
+R19
+R20
 Abiggermem
-R1
-R2
-R3
-R4
-R5
+R6
+R7
+R8
+R9
+R10
 DEx4 work 10 register32 0 22 ;eE0M^gHZYBK[KVXCdAZR2
-!i122 6
+!i122 706
 l116
 L102 40
 VBGW7S@04A>SW0_?ZWW:j=2
 !s100 4;kDVozfl`[[R57399I;83
-R9
-32
-R10
-!i10b 1
-R11
-R12
-R13
-!i113 0
 R14
+32
 R15
+!i10b 1
+R16
+R17
+R18
+!i113 0
+R19
+R20
 Eregister8
-R0
-R1
-R2
-R3
-R4
 R5
-!i122 6
 R6
 R7
 R8
+R9
+R10
+!i122 706
+R11
+R12
+R13
 l0
 L61 1
 VCmLjgjT4F;9OEK[DbRco72
 !s100 DGz4Yz>el_lHHIC:Ik3m10
-R9
-32
-R10
-!i10b 1
-R11
-R12
-R13
-!i113 0
 R14
+32
 R15
+!i10b 1
+R16
+R17
+R18
+!i113 0
+R19
+R20
 Amemmy
-R1
-R2
-R3
-R4
-R5
+R6
+R7
+R8
+R9
+R10
 DEx4 work 9 register8 0 22 CmLjgjT4F;9OEK[DbRco72
-!i122 6
+!i122 706
 l75
 L68 20
 VT2iQ8@DW__=O^6`LoW_6K3
 !s100 ^j<mDSL89]5k4oPid7WN]0
-R9
-32
-R10
-!i10b 1
-R11
-R12
-R13
-!i113 0
 R14
+32
 R15
+!i10b 1
+R16
+R17
+R18
+!i113 0
+R19
+R20
 Eregisters
 R47
-R1
-R2
-R3
-R4
-R5
-!i122 4
-R6
-R48
-R49
-l0
-L63 1
-VKhoiJ``:BKL[X6gMk7QjL1
-!s100 VnUcGA2Lz;::IMRY3;^`@3
-R9
-32
-R10
-!i10b 1
-R11
-R50
-R51
-!i113 0
-R14
-R15
-Aremember
-R1
-R2
-R3
-R4
-R5
-DEx4 work 9 registers 0 22 KhoiJ``:BKL[X6gMk7QjL1
-!i122 4
-l92
-L73 63
-V7V>0m:]8Dch_KYeGOzH[30
-!s100 [U?iOi1l]:H7j1dm52`S91
-R9
-32
-R10
-!i10b 1
-R11
-R50
-R51
-!i113 0
-R14
-R15
-Eshift_register
-R0
-R1
-R2
-R3
-R4
-R5
-!i122 6
 R6
 R7
 R8
+R9
+R10
+!i122 705
+R11
+R48
+R49
+l0
+L64 1
+V5GGF0L<Ek1zimK2g6eId31
+!s100 kR_?j4m;Y=jnZi7mEmz7P3
+R14
+32
+R15
+!i10b 1
+R50
+R51
+R52
+!i113 0
+R19
+R20
+Aremember
+R6
+R7
+R8
+R9
+R10
+DEx4 work 9 registers 0 22 5GGF0L<Ek1zimK2g6eId31
+!i122 705
+l93
+L74 64
+V7A2L2BjCF<NB4k^XHFLP`2
+!s100 9iLXgiz?03a<mlW3COO][1
+R14
+32
+R15
+!i10b 1
+R50
+R51
+R52
+!i113 0
+R19
+R20
+Eshift_register
+R5
+R6
+R7
+R8
+R9
+R10
+!i122 706
+R11
+R12
+R13
 l0
 L190 1
 VI]oKE<>AX0m]3GK8c@EYY2
 !s100 zkiKeOgci7DDPO3_jSglk2
-R9
-32
-R10
-!i10b 1
-R11
-R12
-R13
-!i113 0
 R14
+32
 R15
+!i10b 1
+R16
+R17
+R18
+!i113 0
+R19
+R20
 Ashifter
-R1
-R2
-R3
-R4
-R5
+R6
+R7
+R8
+R9
+R10
 DEx4 work 14 shift_register 0 22 I]oKE<>AX0m]3GK8c@EYY2
-!i122 6
+!i122 706
 l199
 L197 13
 VRAzKAf^`?^Dnc5JdmN@>l0
 !s100 W88za=1E7`a3C27mO4cAI0
-R9
-32
-R10
-!i10b 1
-R11
-R12
-R13
-!i113 0
 R14
+32
 R15
-Etprocessor_vhd
-R32
-R3
-R1
-R2
-R4
-R5
-!i122 3
-R6
-Z52 8C:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_6/tProcessor.vhd
-Z53 FC:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_6/tProcessor.vhd
-l0
+!i10b 1
+R16
+R17
+R18
+!i113 0
 R19
+R20
+Etprocessor_vhd
+R37
+R8
+R6
+R7
+R9
+R10
+!i122 707
+R11
+Z53 8C:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_6/tProcessor.vhd
+Z54 FC:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_6/tProcessor.vhd
+l0
+R24
 V]F>Z@EUlCU;N?nzOSKD;01
 !s100 AfM>`8CkebQoS>K]1oo?]0
-R9
+R14
 32
-R35
+R15
 !i10b 1
-Z54 !s108 1654125101.000000
-Z55 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_6/tProcessor.vhd|
+R16
+Z55 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_6/tProcessor.vhd|
 Z56 !s107 C:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_6/tProcessor.vhd|
 !i113 0
-R14
-R15
+R19
+R20
 Abehavior
-R3
-R1
-R2
-R4
-R5
-DEx4 work 14 tprocessor_vhd 0 22 ]F>Z@EUlCU;N?nzOSKD;01
-!i122 3
-l27
-L15 45
-VOd<naR2]UDQ`@[Zah1UXe0
-!s100 mL]5C4J1MzfXLUceGejOI3
+R8
+R6
+R7
 R9
+R10
+Z57 DEx4 work 14 tprocessor_vhd 0 22 ]F>Z@EUlCU;N?nzOSKD;01
+!i122 707
+l27
+Z58 L15 45
+Z59 VOd<naR2]UDQ`@[Zah1UXe0
+Z60 !s100 mL]5C4J1MzfXLUceGejOI3
+R14
 32
-R35
+R15
 !i10b 1
-R54
+R16
 R55
 R56
 !i113 0
-R14
-R15
+R19
+R20

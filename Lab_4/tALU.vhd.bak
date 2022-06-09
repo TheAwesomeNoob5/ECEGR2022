@@ -61,7 +61,7 @@ BEGIN
 		--addi
 		datain_a <= X"01234567";
 		datain_b <= X"11223344";
-		control  <= "00001";		
+		control  <= "10001";		
 		wait for 20 ns; 		
 		
 		wait for 100 ns;
@@ -85,7 +85,7 @@ BEGIN
 		-- ori
 		datain_a <= X"01234567";
 		datain_b <= X"11223344";
-		control  <= "00100";		
+		control  <= "10100";		
 		wait for 20 ns; 	
 			
 		wait for 100 ns;
@@ -101,7 +101,7 @@ BEGIN
 		-- andi
 		datain_a <= X"01234567";
 		datain_b <= X"11223344";
-		control  <= "00110";		
+		control  <= "10110";		
 		wait for 20 ns; 	
 
 		wait for 100 ns;
@@ -117,7 +117,7 @@ BEGIN
 		-- slli
 		datain_a <= X"01234567";
 		datain_b <= X"00000011";
-		control  <= "01000";		
+		control  <= "11000";		
 		wait for 20 ns; 			
 
 		wait for 100 ns;
@@ -133,14 +133,14 @@ BEGIN
 		-- srli
 		datain_a <= X"01234567";
 		datain_b <= X"00000011";
-		control  <= "01010";		
+		control  <= "11010";		
 		wait for 20 ns; 	
 
 		wait for 100 ns;
 
-		-- srli
+		-- other
 		datain_a <= X"01234567";
-		datain_b <= X"00000011";
+		datain_b <= X"00000000";
 		control  <= "01011";		
 		wait for 20 ns; 		
 

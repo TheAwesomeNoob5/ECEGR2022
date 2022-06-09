@@ -1,0 +1,424 @@
+vsim -voptargs=+acc work.tprocessor_vhd
+# vsim -voptargs="+acc" work.tprocessor_vhd 
+# Start time: 13:25:32 on Jun 09,2022
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tprocessor_vhd(behavior)#1
+# Loading work.processor(holistic)#1
+# Loading work.programcounter(executive)#1
+# Loading work.adder_subtracter(calc)#1
+# Loading work.fulladder(addlike)#1
+# Loading work.instructionram(instrucram)#1
+# Loading work.registers(remember)#1
+# Loading work.register32(biggermem)#1
+# Loading work.register8(memmy)#1
+# Loading work.bitstorage(memlike)#1
+# ** Fatal: (vsim-3380) Invalid library format. Design unit 'C:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_6/work.control(boss)'
+#    Time: 0 ns  Iteration: 0  Instance: /tprocessor_vhd/uut/controller File: C:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_6/Processor.vhd Line: 146
+# FATAL ERROR while loading design
+# Error loading design
+# End time: 13:25:33 on Jun 09,2022, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 1
+# Compile of ProcElements.vhd was successful.
+vsim -voptargs=+acc work.tprocessor_vhd
+# vsim -voptargs="+acc" work.tprocessor_vhd 
+# Start time: 13:26:37 on Jun 09,2022
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tprocessor_vhd(behavior)#1
+# Loading work.processor(holistic)#1
+# Loading work.programcounter(executive)#1
+# Loading work.adder_subtracter(calc)#1
+# Loading work.fulladder(addlike)#1
+# Loading work.instructionram(instrucram)#1
+# Loading work.registers(remember)#1
+# Loading work.register32(biggermem)#1
+# Loading work.register8(memmy)#1
+# Loading work.bitstorage(memlike)#1
+# ** Fatal: (vsim-3380) Invalid library format. Design unit 'C:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_6/work.control(boss)'
+#    Time: 0 ns  Iteration: 0  Instance: /tprocessor_vhd/uut/controller File: C:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_6/Processor.vhd Line: 146
+# FATAL ERROR while loading design
+# Error loading design
+# End time: 13:26:38 on Jun 09,2022, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 2
+# Compile of Processor.vhd failed with 1 errors.
+# Compile of Processor.vhd was successful.
+vsim -voptargs=+acc work.tprocessor_vhd
+# vsim -voptargs="+acc" work.tprocessor_vhd 
+# Start time: 13:27:32 on Jun 09,2022
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tprocessor_vhd(behavior)#1
+# Loading work.processor(holistic)#1
+# Loading work.programcounter(executive)#1
+# Loading work.adder_subtracter(calc)#1
+# Loading work.fulladder(addlike)#1
+# Loading work.instructionram(instrucram)#1
+# Loading work.registers(remember)#1
+# Loading work.register32(biggermem)#1
+# Loading work.register8(memmy)#1
+# Loading work.bitstorage(memlike)#1
+# ** Fatal: (vsim-3380) Invalid library format. Design unit 'C:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_6/work.control(boss)'
+#    Time: 0 ns  Iteration: 0  Instance: /tprocessor_vhd/uut/controller File: C:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_6/Processor.vhd Line: 146
+# FATAL ERROR while loading design
+# Error loading design
+# End time: 13:27:33 on Jun 09,2022, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 3
+# Compile of ProcElements.vhd failed with 1 errors.
+# Compile of ProcElements.vhd failed with 1 errors.
+# Compile of ProcElements.vhd was successful.
+vsim -voptargs=+acc work.tprocessor_vhd
+# vsim -voptargs="+acc" work.tprocessor_vhd 
+# Start time: 13:29:05 on Jun 09,2022
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tprocessor_vhd(behavior)#1
+# Loading work.processor(holistic)#1
+# Loading work.programcounter(executive)#1
+# Loading work.adder_subtracter(calc)#1
+# Loading work.fulladder(addlike)#1
+# Loading work.instructionram(instrucram)#1
+# Loading work.registers(remember)#1
+# Loading work.register32(biggermem)#1
+# Loading work.register8(memmy)#1
+# Loading work.bitstorage(memlike)#1
+# ** Fatal: (vsim-3380) Invalid library format. Design unit 'C:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_6/work.control(boss)'
+#    Time: 0 ns  Iteration: 0  Instance: /tprocessor_vhd/uut/controller File: C:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_6/Processor.vhd Line: 146
+# FATAL ERROR while loading design
+# Error loading design
+# End time: 13:29:07 on Jun 09,2022, Elapsed time: 0:00:02
+# Errors: 1, Warnings: 4
+vcom -work work -2002 -explicit C:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_3/registers.vhd
+# Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 13:29:15 on Jun 09,2022
+# vcom -reportprogress 300 -work work -2002 -explicit C:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_3/registers.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity bitstorage
+# -- Compiling architecture memlike of bitstorage
+# -- Compiling entity fulladder
+# -- Compiling architecture addlike of fulladder
+# -- Compiling entity register8
+# -- Compiling architecture memmy of register8
+# -- Compiling entity register32
+# -- Compiling architecture biggermem of register32
+# -- Compiling entity adder_subtracter
+# -- Compiling architecture calc of adder_subtracter
+# -- Compiling entity shift_register
+# -- Compiling architecture shifter of shift_register
+# ** Warning: C:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_3/registers.vhd(201): (vcom-1014) Array type selected signal assignment expression must be of a locally static subtype.
+# End time: 13:29:15 on Jun 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+vcom -work work -2002 -explicit C:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_4/ALU.vhd
+# Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 13:29:15 on Jun 09,2022
+# vcom -reportprogress 300 -work work -2002 -explicit C:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_4/ALU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity ALU
+# -- Compiling architecture ALU_Arch of ALU
+# End time: 13:29:15 on Jun 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work -2002 -explicit C:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_3/registers.vhd
+# Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 13:29:15 on Jun 09,2022
+# vcom -reportprogress 300 -work work -2002 -explicit C:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_3/registers.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity bitstorage
+# -- Compiling architecture memlike of bitstorage
+# -- Compiling entity fulladder
+# -- Compiling architecture addlike of fulladder
+# -- Compiling entity register8
+# -- Compiling architecture memmy of register8
+# -- Compiling entity register32
+# -- Compiling architecture biggermem of register32
+# -- Compiling entity adder_subtracter
+# -- Compiling architecture calc of adder_subtracter
+# -- Compiling entity shift_register
+# -- Compiling architecture shifter of shift_register
+# ** Warning: C:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_3/registers.vhd(201): (vcom-1014) Array type selected signal assignment expression must be of a locally static subtype.
+# End time: 13:29:16 on Jun 09,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 1
+vcom -work work -2002 -explicit C:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_6/ProcElements.vhd
+# Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 13:29:16 on Jun 09,2022
+# vcom -reportprogress 300 -work work -2002 -explicit C:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_6/ProcElements.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity BusMux2to1
+# -- Compiling architecture selection of BusMux2to1
+# -- Compiling entity Control
+# -- Compiling architecture Boss of Control
+# -- Compiling entity ProgramCounter
+# -- Compiling architecture executive of ProgramCounter
+# End time: 13:29:16 on Jun 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work -2002 -explicit C:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_6/ProcElements.vhd
+# Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 13:29:16 on Jun 09,2022
+# vcom -reportprogress 300 -work work -2002 -explicit C:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_6/ProcElements.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity BusMux2to1
+# -- Compiling architecture selection of BusMux2to1
+# -- Compiling entity Control
+# -- Compiling architecture Boss of Control
+# -- Compiling entity ProgramCounter
+# -- Compiling architecture executive of ProgramCounter
+# End time: 13:29:16 on Jun 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work -2002 -explicit C:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_3/registers.vhd
+# Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 13:29:16 on Jun 09,2022
+# vcom -reportprogress 300 -work work -2002 -explicit C:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_3/registers.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity bitstorage
+# -- Compiling architecture memlike of bitstorage
+# -- Compiling entity fulladder
+# -- Compiling architecture addlike of fulladder
+# -- Compiling entity register8
+# -- Compiling architecture memmy of register8
+# -- Compiling entity register32
+# -- Compiling architecture biggermem of register32
+# -- Compiling entity adder_subtracter
+# -- Compiling architecture calc of adder_subtracter
+# -- Compiling entity shift_register
+# -- Compiling architecture shifter of shift_register
+# ** Warning: C:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_3/registers.vhd(201): (vcom-1014) Array type selected signal assignment expression must be of a locally static subtype.
+# End time: 13:29:17 on Jun 09,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 1
+vcom -work work -2002 -explicit C:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_6/InstrMemory.vhd
+# Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 13:29:17 on Jun 09,2022
+# vcom -reportprogress 300 -work work -2002 -explicit C:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_6/InstrMemory.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity InstructionRAM
+# -- Compiling architecture instrucRAM of InstructionRAM
+# End time: 13:29:17 on Jun 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work -2002 -explicit C:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_6/Processor.vhd
+# Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 13:29:17 on Jun 09,2022
+# vcom -reportprogress 300 -work work -2002 -explicit C:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_6/Processor.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity Processor
+# -- Compiling architecture holistic of Processor
+# End time: 13:29:17 on Jun 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work -2002 -explicit C:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_6/ProcElements.vhd
+# Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 13:29:17 on Jun 09,2022
+# vcom -reportprogress 300 -work work -2002 -explicit C:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_6/ProcElements.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity BusMux2to1
+# -- Compiling architecture selection of BusMux2to1
+# -- Compiling entity Control
+# -- Compiling architecture Boss of Control
+# -- Compiling entity ProgramCounter
+# -- Compiling architecture executive of ProgramCounter
+# End time: 13:29:17 on Jun 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work -2002 -explicit C:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_5/Memory.vhd
+# Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 13:29:17 on Jun 09,2022
+# vcom -reportprogress 300 -work work -2002 -explicit C:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_5/Memory.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity RAM
+# -- Compiling architecture staticRAM of RAM
+# -- Compiling entity Registers
+# -- Compiling architecture remember of Registers
+# End time: 13:29:18 on Jun 09,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -work work -2002 -explicit C:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_3/registers.vhd
+# Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 13:29:18 on Jun 09,2022
+# vcom -reportprogress 300 -work work -2002 -explicit C:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_3/registers.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity bitstorage
+# -- Compiling architecture memlike of bitstorage
+# -- Compiling entity fulladder
+# -- Compiling architecture addlike of fulladder
+# -- Compiling entity register8
+# -- Compiling architecture memmy of register8
+# -- Compiling entity register32
+# -- Compiling architecture biggermem of register32
+# -- Compiling entity adder_subtracter
+# -- Compiling architecture calc of adder_subtracter
+# -- Compiling entity shift_register
+# -- Compiling architecture shifter of shift_register
+# ** Warning: C:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_3/registers.vhd(201): (vcom-1014) Array type selected signal assignment expression must be of a locally static subtype.
+# End time: 13:29:18 on Jun 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+vcom -work work -2002 -explicit C:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_3/registers.vhd
+# Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 13:29:18 on Jun 09,2022
+# vcom -reportprogress 300 -work work -2002 -explicit C:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_3/registers.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity bitstorage
+# -- Compiling architecture memlike of bitstorage
+# -- Compiling entity fulladder
+# -- Compiling architecture addlike of fulladder
+# -- Compiling entity register8
+# -- Compiling architecture memmy of register8
+# -- Compiling entity register32
+# -- Compiling architecture biggermem of register32
+# -- Compiling entity adder_subtracter
+# -- Compiling architecture calc of adder_subtracter
+# -- Compiling entity shift_register
+# -- Compiling architecture shifter of shift_register
+# ** Warning: C:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_3/registers.vhd(201): (vcom-1014) Array type selected signal assignment expression must be of a locally static subtype.
+# End time: 13:29:18 on Jun 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+vcom -work work -2002 -explicit C:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_5/Memory.vhd
+# Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 13:29:18 on Jun 09,2022
+# vcom -reportprogress 300 -work work -2002 -explicit C:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_5/Memory.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity RAM
+# -- Compiling architecture staticRAM of RAM
+# -- Compiling entity Registers
+# -- Compiling architecture remember of Registers
+# End time: 13:29:19 on Jun 09,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -work work -2002 -explicit C:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_3/registers.vhd
+# Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 13:29:19 on Jun 09,2022
+# vcom -reportprogress 300 -work work -2002 -explicit C:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_3/registers.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity bitstorage
+# -- Compiling architecture memlike of bitstorage
+# -- Compiling entity fulladder
+# -- Compiling architecture addlike of fulladder
+# -- Compiling entity register8
+# -- Compiling architecture memmy of register8
+# -- Compiling entity register32
+# -- Compiling architecture biggermem of register32
+# -- Compiling entity adder_subtracter
+# -- Compiling architecture calc of adder_subtracter
+# -- Compiling entity shift_register
+# -- Compiling architecture shifter of shift_register
+# ** Warning: C:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_3/registers.vhd(201): (vcom-1014) Array type selected signal assignment expression must be of a locally static subtype.
+# End time: 13:29:19 on Jun 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+vcom -work work -2002 -explicit C:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_6/tProcessor.vhd
+# Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 13:29:19 on Jun 09,2022
+# vcom -reportprogress 300 -work work -2002 -explicit C:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_6/tProcessor.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tProcessor_vhd
+# -- Compiling architecture behavior of tProcessor_vhd
+# End time: 13:29:19 on Jun 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc work.tprocessor_vhd
+# vsim -voptargs="+acc" work.tprocessor_vhd 
+# Start time: 13:29:37 on Jun 09,2022
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tprocessor_vhd(behavior)#1
+# Loading work.processor(holistic)#1
+# Loading work.programcounter(executive)#1
+# Loading work.adder_subtracter(calc)#1
+# Loading work.fulladder(addlike)#1
+# Loading work.instructionram(instrucram)#1
+# Loading work.registers(remember)#1
+# Loading work.register32(biggermem)#1
+# Loading work.register8(memmy)#1
+# Loading work.bitstorage(memlike)#1
+# ** Fatal: (vsim-3380) Invalid library format. Design unit 'C:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_6/work.control(boss)'
+#    Time: 0 ns  Iteration: 0  Instance: /tprocessor_vhd/uut/controller File: C:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_6/Processor.vhd Line: 146
+# FATAL ERROR while loading design
+# Error loading design
+# End time: 13:29:38 on Jun 09,2022, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 1

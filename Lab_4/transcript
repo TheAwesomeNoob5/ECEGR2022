@@ -1,0 +1,65 @@
+# Compile of ALU.vhd was successful.
+# Compile of tALU.vhd was successful.
+# Compile of registers.vhd was successful with warnings.
+# 3 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.testalu_vhd
+# vsim -voptargs="+acc" work.testalu_vhd 
+# Start time: 00:26:23 on Jun 09,2022
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading work.testalu_vhd(behavior)#1
+# Loading work.alu(alu_arch)#1
+# Loading work.adder_subtracter(calc)#1
+# Loading work.fulladder(addlike)#1
+# Loading work.shift_register(shifter)#1
+# Compile of ALU.vhd was successful.
+# Compile of tALU.vhd was successful.
+# Compile of registers.vhd was successful with warnings.
+# 3 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading work.testalu_vhd(behavior)#1
+# Loading work.alu(alu_arch)#1
+# Loading work.adder_subtracter(calc)#1
+# Loading work.fulladder(addlike)#1
+# Loading work.shift_register(shifter)#1
+add wave -position insertpoint  \
+sim:/testalu_vhd/datain_a \
+sim:/testalu_vhd/datain_b \
+sim:/testalu_vhd/control \
+sim:/testalu_vhd/result \
+sim:/testalu_vhd/zeroOut
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: cheun  Hostname: LAPTOP-KC4RSFUE  ProcessID: 11452
+#           Attempting to use alternate WLF file "./wlftyq3ktg".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftyq3ktg
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /testalu_vhd/uut
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 3  Instance: /testalu_vhd/uut
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 4  Instance: /testalu_vhd/uut
+run
+run
+run
+run
+run
+run
+run
+# End time: 00:27:16 on Jun 09,2022, Elapsed time: 0:00:53
+# Errors: 0, Warnings: 6
+# Closing project C:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_4/Lab_4.mpf
