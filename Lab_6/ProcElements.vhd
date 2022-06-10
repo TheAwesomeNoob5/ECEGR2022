@@ -58,9 +58,9 @@ begin
 			"11000" when opcode = "0010011" and funct3= "001" else				--slli
 			"01001" when opcode = "0110011" and funct3= "101" and funct7 = "0000000"else	--srl
 			"11010" when opcode = "0010011" and funct3= "101" else				--srli
-			"01011" when opcode = "1100011" else						--beq or bne	
-			"11100" when opcode = "0000011" else						--lw		
-			"11101" when opcode = "0100011" else						--sw
+			"00010" when opcode = "1100011" else						--beq or bne	
+			"10001" when opcode = "0000011" else						--lw		
+			"10001" when opcode = "0100011" else						--sw
 			"11110" when opcode = "0110111" else						--lui
 			"01111";
 

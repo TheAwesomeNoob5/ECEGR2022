@@ -143,8 +143,8 @@ begin
 	pcadder: adder_subtracter port map(PCans, X"00000004", '0', pcadd, carryout); 
 	instructionMem : InstructionRAM port map (reset, clock, PCans(31 downto 2), instruction); 
 	regFile: Registers port map(instruction(19 downto 15),instruction(24 downto 20),Instruction(11 downto 7), writingData, registerWrite, readDataOut1, readDataOut2);
-	controller: Control port map(clcok,instruction(6 downto 0),instruction(14 downto 12),instruction(31 downto 25), branchOut, memoryread,memorytoReg, ALUcontrol, memorywrite, alusource, registerWrite,immediate);
-	alumux: BusMux2to1 port map(alusource, readDataout2, immediateGen,muxResult1);
+	controller: Control port map(clock,instruction(6 downto 0),instruction(14 downto 12),instruction(31 downto 25), branchOut, memoryread,memorytoReg, ALUcontrol, memorywrite, alusource, registerWrite,immediate);
+	alumux: BusMux2to1 port map(alusource, immediateGen, readDataout2,muxResult1);
 	arithmeticLogicUnit: ALU port map(readDataOut1, muxResult1, ALUcontrol,Zero1 ,ALUResult1);
 	offset: adder_subtracter port map( ALUResult1, x"10000000", '1', offsetAddress, carryout2);
 	PCImmGenAdder: adder_subtracter port map(PCans, immediateGen , '0', adding, carryout3); 
@@ -163,7 +163,7 @@ begin
 				  	(OTHERS=>'0');
 	
 
-	branchSelect <= '1' when (branchOut = "01" AND Zero1 = '1') OR (branchOut = "10" AND Zero1 = '0') else
+	branchSelect <= '1' when (branchOut = "01" AND Zero1 = '1') OR (branchOut = "10" AND Zero1 = '0') else						--beq/bne
 			'0';
 
 	 

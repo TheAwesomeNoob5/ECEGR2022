@@ -1,5 +1,5 @@
-C:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_6/Processor.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_6/Processor.vhd
-Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+C:/Users/bcheung/Documents/GitHub/ECEGR2022/Lab_6/Processor.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/Users/bcheung/Documents/GitHub/ECEGR2022/Lab_6/Processor.vhd
+Model Technology ModelSim SE-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
@@ -8,19 +8,8 @@ Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
 -- Compiling entity Processor
 -- Compiling architecture holistic of Processor
 
-} {} {}} C:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_4/ALU.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_4/ALU.vhd
-Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Loading package std_logic_arith
--- Loading package STD_LOGIC_UNSIGNED
--- Compiling entity ALU
--- Compiling architecture ALU_Arch of ALU
-
-} {} {}} C:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_6/tProcessor.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_6/tProcessor.vhd
-Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+} {} {}} C:/Users/bcheung/Documents/GitHub/ECEGR2022/Lab_6/tProcessor.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/Users/bcheung/Documents/GitHub/ECEGR2022/Lab_6/tProcessor.vhd
+Model Technology ModelSim SE-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
@@ -30,8 +19,8 @@ Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
 -- Compiling entity tProcessor_vhd
 -- Compiling architecture behavior of tProcessor_vhd
 
-} {} {}} C:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_5/Memory.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_5/Memory.vhd
-Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+} {} {}} C:/Users/bcheung/Documents/GitHub/ECEGR2022/Lab_5/Memory.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/Users/bcheung/Documents/GitHub/ECEGR2022/Lab_5/Memory.vhd
+Model Technology ModelSim SE-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
@@ -43,8 +32,30 @@ Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
 -- Compiling entity Registers
 -- Compiling architecture remember of Registers
 
-} {} {}} C:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_3/registers.vhd {2 {vcom -work work -2002 -explicit -vopt -stats=none C:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_3/registers.vhd
-Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+} {} {}} C:/Users/bcheung/Documents/GitHub/ECEGR2022/Lab_4/ALU.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/Users/bcheung/Documents/GitHub/ECEGR2022/Lab_4/ALU.vhd
+Model Technology ModelSim SE-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity ALU
+-- Compiling architecture ALU_Arch of ALU
+
+} {} {}} C:/Users/bcheung/Documents/GitHub/ECEGR2022/Lab_6/InstrMemory.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/Users/bcheung/Documents/GitHub/ECEGR2022/Lab_6/InstrMemory.vhd
+Model Technology ModelSim SE-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity InstructionRAM
+-- Compiling architecture instrucRAM of InstructionRAM
+
+} {} {}} C:/Users/bcheung/Documents/GitHub/ECEGR2022/Lab_3/registers.vhd {2 {vcom -work work -2002 -explicit -vopt -stats=none C:/Users/bcheung/Documents/GitHub/ECEGR2022/Lab_3/registers.vhd
+Model Technology ModelSim SE-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
@@ -63,17 +74,6 @@ Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
 -- Compiling architecture calc of adder_subtracter
 -- Compiling entity shift_register
 -- Compiling architecture shifter of shift_register
-** Warning: C:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_3/registers.vhd(201): (vcom-1014) Array type selected signal assignment expression must be of a locally static subtype.
-
-} {} {}} C:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_6/InstrMemory.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/Users/cheun/OneDrive/Documents/GitHub/ECEGR2022/ECEGR2022/Lab_6/InstrMemory.vhd
-Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Loading package std_logic_arith
--- Loading package STD_LOGIC_UNSIGNED
--- Compiling entity InstructionRAM
--- Compiling architecture instrucRAM of InstructionRAM
+** Warning: C:/Users/bcheung/Documents/GitHub/ECEGR2022/Lab_3/registers.vhd(201): (vcom-1014) Array type selected signal assignment expression must be of a locally static subtype.
 
 } {} {}}

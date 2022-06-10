@@ -163,7 +163,7 @@ begin
 				  	(OTHERS=>'0');
 	
 
-	branchSelect <= '1' when (branchOut = "01" AND Zero1 = '1') OR (branchOut = "10" AND Zero1 = '0') else
+	branchSelect <= '1' when (branchOut = "01" AND Zero1 = '1') OR (branchOut = "10" AND Zero1 = '0') else						--beq/bne
 			'0';
 
 	 
